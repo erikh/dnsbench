@@ -4,6 +4,8 @@
 
 Have you ever needed to troubleshoot a DNS server? Or maybe you want to do some benchmarking before trouble arises. DNSBench is a simple command-line tool that can help you with that.
 
+**NOTE:** this is a fork of [dnsbench](https://github.com/askmediagroup/dnsbench) updated to compile on go 1.16 as well as play nice(r) with go modules. It's maintained enough to work for me, but I will accept patches for it.
+
 ## Installation
 
 With [Go](https://golang.org/doc/install) installed:
@@ -72,12 +74,3 @@ example.com
 google.com
 foobar.com
 ```
-
-## Status
-
-DNSBench is currently under active development with upcoming improvements targetting:
-
-- Documentation
-- Command-line useability
-- Decoupling command-line and DNS lookup logic of source
-- Testing

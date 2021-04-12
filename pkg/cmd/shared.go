@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/askmediagroup/dnsbench/pkg/resolve"
+	"github.com/erikh/dnsbench/pkg/resolve"
 	"github.com/codahale/hdrhistogram"
 )
 

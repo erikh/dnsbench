@@ -9,7 +9,7 @@ Have you ever needed to troubleshoot a DNS server? Or maybe you want to do some 
 With [Go](https://golang.org/doc/install) installed:
 
 ```bash
-go get -u github.com/askmediagroup/dnsbench/cmd/dnsbench
+go get -u github.com/erikh/dnsbench/cmd/dnsbench
 ```
 
 ## Usage and examples
@@ -77,7 +77,7 @@ foobar.com
 
 DNSBench is currently under active development with upcoming improvements targetting:
 
-* Documentation
-* Command-line useability
-* Decoupling command-line and DNS lookup logic of source
-* Testing
+- Documentation
+- Command-line useability
+- Decoupling command-line and DNS lookup logic of source
+- Testing
